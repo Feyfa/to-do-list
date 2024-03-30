@@ -1,0 +1,48 @@
+.container {
+    width: 90%;
+    display: flex;
+    gap: 10px;
+}
+
+.input {
+    border: 2px solid rgb(150, 150, 150);
+    border-radius: 5px;
+    padding: .8rem;
+    width: 80%;
+    font-size: 1rem;
+    outline: none;
+}
+
+.button {
+    border: none;
+    border-radius: 5px;
+    padding: .8rem 1rem;
+    background-color: #2563eb;
+    color: white;
+    width: 20%;
+    font-size: 1rem;
+}
+
+@media screen and (min-width: 640px) {
+    .container {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .container {
+        width: 50%;
+    }
+}
